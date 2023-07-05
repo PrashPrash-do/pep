@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @keyframes animate--dev{
+            0%{
+                background-color: rgb(24, 79, 146);
+                transform: translate(100px);
+            }
+            50%{
+                background-color: rgb(199, 137, 57);
+                transform: translate(500px);
+            }
+            100%{
+                background-color: rgb(74, 48, 14);
+                transform: translate(1000px);
+            }
+        }
+        div{
+            width: 100px;
+            height: 100px;
+            background-color: rgb(41, 102, 209);
+            border-radius: 10px;
+             animation-name: animate--dev;
+             animation-duration: 7s;
+             animation-delay: 0.35s;
+             animation-iteration-count: infinite;
+             animation-timing-function: linear;
+        }
+    </style>
+</head>
+<body>
+    <div>
+
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,33 @@
+.ccolor{
+    color:aqua;
+    background: whitesmoke;
+    text-align: center;
+    font-size: 30px;
+}
+.dcolor{
+    color: rgb(14, 14, 157);
+    background-color: azure;
+    
+}
+.box{
+    border: 2px solid black;
+    width:800px;
+    height: 400px;
+    float:right;
+}
+.ecolor{
+    color: crimson;
+    background-color: wheat;
+    text-align: end;
+    font-size: medium;
+}
+.fcolor{
+    color: cornsilk;
+    background-color: rgb(15, 167, 30);
+    text-align: right;
+    
+}
+.gcolor{
+    color: blanchedalmond;
+    background-color: blueviolet;
+}
