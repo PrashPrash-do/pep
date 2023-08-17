@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keyframe</title>
+    <style>
+        div {
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            background-color: rgb(228, 37, 37);
+            animation-name: animate-test;
+            animation-iteration-count: infinite;
+            animation-duration: 5s;
+            animation-delay: 0.4s;
+            animation-timing-function: ease-in;
+        }
+
+        @keyframes animate-test {
+            0% {
+                background-color: rgb(216, 45, 22);
+                transform: translateX(100px);
+            }
+
+            10% {
+                background-color: rgb(235, 192, 40);
+                transform: translateY(200px);
+            }
+
+            20% {
+                background-color: rgb(97, 203, 16);
+                transform: translateX(300px);
+            }
+
+            30% {
+                background-color: rgb(47, 240, 208);
+                transform: translateY(400px);
+            }
+
+            40% {
+                background-color: rgb(43, 145, 235);
+                transform: translateX(500px);
+            }
+
+            50% {
+                background-color: rgb(191, 63, 237);
+                transform: translateY(600px);
+            }
+
+            60% {
+                background-color: rgb(227, 34, 204);
+                transform: translateX(700px);
+            }
+
+            70% {
+                background-color: rgb(233, 36, 144);
+                transform: translateY(750px);
+            }
+
+            80% {
+                background-color: rgb(236, 23, 23);
+                transform: translateX(700px);
+            }
+
+            90% {
+                background-color: rgb(247, 129, 129);
+                transform: translateY(650px);
+            }
+
+            100% {
+                background-color: rgb(224, 23, 23);
+                transform: translateY(500px);
+            }
+        }
+    </style>
+</head>
+<body>
+   <div></div>
+</body>
+</html>

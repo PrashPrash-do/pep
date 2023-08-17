@@ -1,0 +1,43 @@
+<html>
+<head>
+</head>
+<body bgcolor="yellow">
+<h1>Create an Account</h1>
+<form>
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname" required><br><br>
+
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname" required><br><br>
+
+  <p>Select Gender:</p>
+  <input type="radio" id="male" name="gender" value="male">
+  <label for="male">Male</label>
+  <input type="radio" id="female" name="gender" value="female">
+  <label for="female">Female</label><br><br>
+
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email" required><br><br>
+
+  <label for="password">Password:</label>
+  <input type="password" id="password" name="password" required><br><br>
+
+  <label for="address">Address:</label><br>
+  <textarea id="address" name="address" rows="4" cols="50"></textarea><br><br>
+
+  <label for="country">Country:</label>
+  <select name="country" id="country">
+    <option value="USA">USA</option>
+    <option value="Canada">Canada</option>
+    <option value="UK">UK</option>
+    <option value="Australia">Australia</option>
+    <!-- Add more countries as needed -->
+  </select><br><br>
+
+  <input type="checkbox" id="newsletter" name="newsletter">
+  <label for="newsletter">Subscribe to our newsletter</label><br><br>
+
+  <input type="submit" value="Create Account">
+</form>
+</body>
+</html>
